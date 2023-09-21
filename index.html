@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript도전기</title>
+</head>
+<body>
+    <script>
+        // 변수개념
+        // js에선 변수의 이름을 카멜형으로 짓는다. 예) userName
+        // 변수는 let 따라서 let userName 이런식으로  
+        let userName
+// ------------------------------------------------------------------
+        //자료형
+
+        //문자형
+        //변수에 담을 수 있는 데이터의 종류는 문자형, 숫자형, 논리형, 빈데이터(Null)
+        let munja = "문자형입니다.";
+        let number = "999"; //숫자여도 "" 안에있어서 문자임
+        let htmlTag = "<p>p태그로 저장됩니다.</p>"
+        //숫자형
+        //문자형을 숫자형으로 바꾸려면 앞에 Number를 붙이고 소괄호 안에 문자형 데이터를 넣는다
+        let sutja = 300;
+        let munja2 = Number("300");
+        //논리형
+        //참이냐 거짓이냐 판단하는 데이터
+        let t = true
+        let f = false// 참이냐 거짓이냐를 직접적으로 명시하는 데이터
+        let w = 1>10 // 1이 10보다 작으니 거짓이다 계산값에 의해 진실, 거짓이 판단됨
+        let q = Boolean("munja"); //0, -0, null, false, NaN, undefined, 빈 문자열("")이 아니면 모두 true 입니다.
+
+        let qq = 10;
+        let ww = 2;
+
+        document.write(qq+ww+"<br>"); //10+2=12
+        document.write(qq-ww+"<br>"); //10-2=8
+        document.write(qq*ww+"<br>"); //10*2=20
+        document.write(qq/ww+"<br>"); //10/2=5
+        document.write(qq%ww) //10을 2로 나누면 남는 값이 없습니다. =0
+
+        let userName2 = "xodnd";
+        let msg = "환영합니다.";
+
+    document.write(userName2+"님 "+msg+"20"+23);
+    //결과값으로 큐캣님 환영합니다.2022 가 출력됩니다.
+
+    
+    </script>
+</body>
+</html>
